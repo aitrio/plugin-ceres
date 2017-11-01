@@ -24,26 +24,26 @@ $spacer:   1rem !default;
 $spacer-x: $spacer !default;
 $spacer-y: $spacer !default;
 $spacers: (
-  0: (
-    x: 0,
-    y: 0
-  ),
-  05: (
-    x: ($spacer-x * 0.5),
-    y: ($spacer-y * 0.5)
-  ),
-  1: (
-    x: $spacer-x,
-    y: $spacer-y
-  ),
-  2: (
-    x: ($spacer-x * 1.5),
-    y: ($spacer-y * 1.5)
-  ),
-  3: (
-    x: ($spacer-x * 3),
-    y: ($spacer-y * 3)
-  )
+        0: (
+                x: 0,
+                y: 0
+        ),
+        05: (
+                x: ($spacer-x * 0.5),
+                y: ($spacer-y * 0.5)
+        ),
+        1: (
+                x: $spacer-x,
+                y: $spacer-y
+        ),
+        2: (
+                x: ($spacer-x * 1.5),
+                y: ($spacer-y * 1.5)
+        ),
+        3: (
+                x: ($spacer-x * 3),
+                y: ($spacer-y * 3)
+        )
 ) !default;
 $border-width: 1px !default;
 
@@ -52,10 +52,10 @@ $border-width: 1px !default;
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 576px,
-  md: 720px,
-  lg: 940px,
-  xl: 1140px
+        sm: 576px,
+        md: 720px,
+        lg: 940px,
+        xl: 1140px
 ) !default;
 
 
@@ -79,10 +79,10 @@ $gray-lighter:          #dcdbd8 !default;
 $gray-lighter2:         #f4f4f4 !default;
 $gray-lightest:         #f7f7f9 !default;
 
-$brand-primary:         #008ebd !default;
-$brand-secondary:       #d4021d !default;
+$brand-primary:         #9481a0 !default;
+$brand-secondary:       #afc819 !default;
 
-$brand-success:         #7ED321 !default;
+$brand-success:         #afc819 !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
@@ -91,7 +91,7 @@ $white:                 #fff;
 $black:                 #000;
 
 $custom-colors: (
-  "gelb": "#ffff00",
+        "gelb": "#ffff00",
 ) !default;
 
 $top-bar-bg:            $gray-dark;
@@ -409,12 +409,12 @@ $custom-file-box-shadow:    inset 0 .2rem .4rem rgba(0,0,0,.05) !default;
 $custom-file-button-color:  $custom-file-color !default;
 $custom-file-button-bg:     #eee !default;
 $custom-file-text: (
-  placeholder: (
-    en: "Choose file..."
-  ),
-  button-label: (
-    en: "Browse"
-  )
+        placeholder: (
+                en: "Choose file..."
+        ),
+        button-label: (
+                en: "Browse"
+        )
 ) !default;
 
 // This allows us to at a glance determine relative layers of our application and prevents bugs

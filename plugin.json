@@ -1,7 +1,7 @@
 {
     "version"           : "1.6.2",
-    "name"              : "Ceres",
-    "marketplaceName"   : {"de": "Ceres","en": "Ceres"},
+    "name"              : "Ceres-Aitrio",
+    "marketplaceName"   : {"de": "Ceres-MWD","en": "Ceres-MWD"},
     "description"       : "This is the official Ceres plugin developed by plentymarkets. Ceres is the default template plugin for plentymarkets 7 online stores.",
     "author"            : "plentymarkets GmbH",
     "license"           : "AGPL-3.0",
